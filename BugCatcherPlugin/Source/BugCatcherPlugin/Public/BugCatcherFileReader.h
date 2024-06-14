@@ -6,9 +6,7 @@
 #include "Kismet/BlueprintFunctionLibrary.h"
 #include "BugCatcherFileReader.generated.h"
 
-/**
- * 
- */
+
 UCLASS()
 class BUGCATCHERPLUGIN_API UBugCatcherFileReader : public UBlueprintFunctionLibrary
 {
@@ -19,6 +17,6 @@ class BUGCATCHERPLUGIN_API UBugCatcherFileReader : public UBlueprintFunctionLibr
 	static bool FileSaveLogString(FString SaveTextB, FString FileNameB);
 
 	UFUNCTION(BlueprintPure, Category = "save")
-	static bool FileLoadLogString(FString FileNameA, FString& SaveTextA);
+	static bool FileLoadLogString(TArray<FString>& Files, FString& LogContent);
 	
 };

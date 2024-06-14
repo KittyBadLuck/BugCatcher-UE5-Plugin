@@ -17,7 +17,7 @@ void EmptyLinkFunctionForGeneratedCodeBugCatcherPlugin_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000040,
-				0xEA66921A,
+				0x916AD941,
 				0xCDEE37EA,
 				METADATA_PARAMS(0, nullptr)
 			};
@@ -25,5 +25,5 @@ void EmptyLinkFunctionForGeneratedCodeBugCatcherPlugin_init() {}
 		}
 		return Z_Registration_Info_UPackage__Script_BugCatcherPlugin.OuterSingleton;
 	}
-	static FRegisterCompiledInInfo Z_CompiledInDeferPackage_UPackage__Script_BugCatcherPlugin(Z_Construct_UPackage__Script_BugCatcherPlugin, TEXT("/Script/BugCatcherPlugin"), Z_Registration_Info_UPackage__Script_BugCatcherPlugin, CONSTRUCT_RELOAD_VERSION_INFO(FPackageReloadVersionInfo, 0xEA66921A, 0xCDEE37EA));
+	static FRegisterCompiledInInfo Z_CompiledInDeferPackage_UPackage__Script_BugCatcherPlugin(Z_Construct_UPackage__Script_BugCatcherPlugin, TEXT("/Script/BugCatcherPlugin"), Z_Registration_Info_UPackage__Script_BugCatcherPlugin, CONSTRUCT_RELOAD_VERSION_INFO(FPackageReloadVersionInfo, 0x916AD941, 0xCDEE37EA));
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
